@@ -1,10 +1,11 @@
 import React from "react";
-import Contact from "./components/Contact";
+import ContactList from "./components/ContactList";
 
 function App() {
   return (
     <div className="App">
-      <Contact
+      <ContactList />
+      {/* <Contact
         name="Esther Wood"
         img="https://randomuser.me/api/portraits/women/32.jpg"
         offline
@@ -18,7 +19,7 @@ function App() {
         name="Bobby Wilson"
         img="https://randomuser.me/api/portraits/men/79.jpg"
         online
-      />
+      /> */}
     </div>
   );
 }
