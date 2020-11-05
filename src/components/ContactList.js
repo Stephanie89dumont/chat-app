@@ -35,7 +35,7 @@ const ContactList = () => (
             <Contact
                 key={user.name}
                 name={user.name}
-                image={user.img}
+                avatar={user.avatar}
                 online={user.online}
             />
         ))}

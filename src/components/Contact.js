@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 function Contact(props) {
     return (
         <figure className="Contact">
-            <img className="avatar" src={props.img} alt={props.name} />
+            <img className="avatar" src={props.avatar} alt={props.name} />
 
             <div className="status">
                 <p className="name">{props.name}</p>
@@ -21,7 +21,7 @@ function Contact(props) {
 
 Contact.propTypes = {
     name: PropTypes.string.isRequired,
-    img: PropTypes.object.isRequired,
+    avatar: PropTypes.object.isRequired,
     online: PropTypes.bool.isRequired
 };
 
